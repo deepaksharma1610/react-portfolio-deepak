@@ -37,11 +37,11 @@ export default function Contact() {
           className="flex justify-center"
         >
           <a
-            href="mailto:tyagishreya827@gmail.com"
+            href="mailto:deepaksharma16103@gmail.com"
             className="flex items-center gap-2 text-lg hover:text-gray-400"
           >
             <MdEmail className="text-2xl" />
-            deepaksharma1610@gmail.com
+            deepaksharma16103@gmail.com
           </a>
         </motion.div>
 

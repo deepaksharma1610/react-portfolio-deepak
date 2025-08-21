@@ -13,8 +13,9 @@ function Navbar() {
       <div className='flex items-center px-8 gap-4'>
         {/* Download Resume Button */}
         <a
-          href="/deepaksharmaresume.pdf"
+          href="https://drive.google.com/file/d/1Xi-0bU76Gq4uUlGdcnwtPxr8c5MebOd9/view?usp=sharing"
           download
+          target='_blank'
           className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-300"
         >
           Download Resume
