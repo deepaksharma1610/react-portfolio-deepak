@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from "../assets/deepakAbout.png"
+import aboutImg from "../assets/img2.jpg"
 import { ABOUT_TEXT } from '../constants'
 import {motion} from "framer-motion"
 
@@ -13,7 +13,7 @@ export default function About() {
         <div className='flex flex-col lg:flex-row items-center lg:items-start gap-8'>
             <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.5}} className='w-full lg:w-1/2 lg:p-8'>
                 <div className='flex mx-10'>
-                    <img className='rounded-2xl h-100' src={aboutImg} alt='about'/>
+                    <img className='rounded-2xl h-110 w-80' src={aboutImg} alt='about'/>
                 </div>
             </motion.div>
             <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5}} className='w-full lg:w-1/2'>
@@ -26,7 +26,6 @@ export default function About() {
     </>
   )
 }
-
 
 
 // import aboutImg from "../assets/deepakAbout.png"
