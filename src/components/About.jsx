@@ -1,7 +1,9 @@
 import React from 'react'
-import aboutImg from "../assets/img2.jpg"
+// import aboutImg from "../assets/img2.jpg"
+import aboutImg from "../assets/about1.jpg"
+
 import { ABOUT_TEXT } from '../constants'
-import {motion} from "framer-motion"
+import {motion} from "framer-motion"       
 
 export default function About() {
   return (
@@ -13,10 +15,10 @@ export default function About() {
         <div className='flex flex-col lg:flex-row items-center lg:items-start gap-8'>
             <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.5}} className='w-full lg:w-1/2 lg:p-8'>
                 <div className='flex mx-10'>
-                    <img className='rounded-2xl h-110 w-80' src={aboutImg} alt='about'/>
+                    <img className='rounded-2xl h-115 w-75' src={aboutImg} alt='about'/>
                 </div>
             </motion.div>
-            <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5}} className='w-full lg:w-1/2'>
+            <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5}} className='w-full lg:w-1/2 '>
             <div className='flex justify-center lg:justify-start'>
                 <p className='my-10 max-w-xl text-1.5xl py-6'>{ABOUT_TEXT}</p>
             </div>
@@ -61,3 +63,5 @@ export default function About() {
 // }
 
 // export default About
+
+
