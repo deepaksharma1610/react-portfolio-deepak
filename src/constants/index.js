@@ -5,9 +5,9 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like HTML,CSS,JavaScript,and React.js. Proficient in state management, API integration, and performance optimization. Knowledgeable in version control (Git/GitHub), deployment (Vercel). My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences. As a fresher, I’m focused on writing clean, responsive, and accessible code while continuously learning and improving my skills through real-world projects. My goal is to contribute to meaningful web experiences while growing as a developer in a collaborative and fast-paced environment.`;
 
-export const ABOUT_TEXT = `👋 Hi, I'm Deepak Sharma  
-💻 Frontend Developer | React & Tailwind Enthusiast  
-🚀 Building clean, responsive and user-friendly UIs,  
+export const ABOUT_TEXT = `Hi, I'm Deepak Sharma  
+Frontend Developer | React & Tailwind Enthusiast  
+Building clean, responsive and user-friendly UIs,  
 I'm a passionate and detail-oriented Frontend Developer with a strong foundation in HTML, CSS, and JavaScript, along with hands-on experience in building responsive web interfaces using modern frameworks like React. As a recent graduate, I bring a fresh perspective, a strong willingness to learn, and a commitment to writing clean, efficient code. I'm enthusiastic about creating user-friendly, accessible digital experiences and continuously improving my skills through real-world projects and collaboration.During my academic projects and personal learning journey, I’ve built several responsive websites and small-scale applications that demonstrate my ability to combine clean code with engaging UI/UX. I'm a quick learner, team player, and always eager to explore new tools and technologies in the frontend ecosystem. I’m currently looking for an opportunity where I can contribute to impactful projects, grow as a developer, and collaborate with like-minded professionals in a supportive environment.`;
 
 export const EXPERIENCES = [
